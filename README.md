@@ -1,7 +1,5 @@
 # Swarmongers Repository
 
--------------------
-
 Swarmongers is a retro vector graphics 2D video-game I developed as a demo in 2000 at Magic Lantern Playware using DirectX and base code from Andre Lamothe's tutorial book *Windows Game Programming for Dummies*.  It is similar to Asteroids, but with a (rudimentary) story and levels geared towards defeating alien ship opponents.
 
 ## Setting Up and Playing the Game
