@@ -1,40 +1,28 @@
-==========================================
-   README  George Chadderdon, 5/22/2009
-==========================================
+# Swarmongers Repository
 
-[This file needs to be updated, 10/22/2016]
+-------------------
 
-CONTENTS AND DIRECTIONS FOR COMPILING
+Swarmongers is a retro vector graphics 2D video-game I developed as a demo in 2000 at Magic Lantern Playware using DirectX and base code from Andre Lamothe's tutorial book *Windows Game Programming for Dummies*.  It is similar to Asteroids, but with a (rudimentary) story and levels geared towards defeating alien ship opponents.
 
-This folder contains C++ source and executable code for 
-a retro 2D video-game developed using DirectX.  The 
-entire directory should work as a project directory 
-under the Visual C++ 2008 Express Edition.  Note that
-to compile and link the code, you need to have the 
-DirectX SDK installed.  (I used the March 2009 version.)
-In case of linking problems, know that the following 
-libs need to be included in the build:
-    ddraw.lib
-    dinput8.lib
-    dsound.lib
-    winmm.lib
+## Setting Up and Playing the Game
 
-Docs/ contains (profuse) development notes.
-Debug/ contains the Debug executable version of the game.
-Release/ contains the Release version of the game.
-Swarmongers/ contains the source code.
-Swarmongers.sln is the solution file.
+After cloning the repo, you run the game by double-clicking `Swarmongers.exe` and clicking the Run button when the dialog box comes up.  This executable has been verified to run on Windows 7 Professional on a 64-bit Intel i3-4005U machine.
 
-SETTING UP AND PLAYING THE GAME
+## Repo Contents
 
-For those interested only in playing the game, the 
-folders and files in Release/ could be moved into a 
-folder elsewhere named Swarmongers/ and the game may 
-be run by double-clicking Swarmongers.exe.
+* `Docs\` game design and development notes
+* `Music\` music files used in the game (courtesy of Duncan McPherson (one of my coworkers at Magic Lantern), Franz Liszt, and Dmitri Shostakovich)
+* `New Sounds\` sound files used in the game (developed by Duncan)
+* `src\` source code for the game (including my code and Andre Lamothe's GPDUMB engine)
+* `README.md` this file
+* `DPAINT.PAL` palette file for the splash screen
+* `Swarmongers 1C.bmp` splash screen bitmap
+* `Swarmongers.exe` the executable file
 
-ACKNOWLEDGEMENTS
+## Building an Executable in Microsoft Visual Studio
 
-Special thanks go to Andre Lamothe and his wonderful 
-tutorial book "Windows Game Programming for Dummies" 
-from which wrappers for the DirectX routines were taken, 
-and Duncan McPherson for the sounds and music.
+The version of the code I had [here](http://gchadder3.com/SoftwareDev/Swarmongers.zip) was built using Visual C++ 2008 Express Edition.
+
+I am currently in the process getting builds working under Visual Studio Community 15.
+
+-- George Chadderdon, 10/22/2016
