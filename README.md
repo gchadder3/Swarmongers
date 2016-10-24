@@ -21,6 +21,7 @@ After cloning the repo, you run the game by double-clicking `Swarmongers.exe` an
 
 The version of the code I had [here](http://gchadder3.com/SoftwareDev/Swarmongers.zip) was built using Visual C++ 2008 Express Edition.
 
-I am currently in the process getting builds working under Visual Studio Community 15.
+Currently the builds do not work reliably under Visual Studio Community 15, so the next stage would be 
+to get this working.
 
--- George Chadderdon, 10/22/2016
+-- George Chadderdon, 10/24/2016
